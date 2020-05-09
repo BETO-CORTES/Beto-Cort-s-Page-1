@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+body{
+  background-color: #24252a;
+}
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #24252a;
+  
 }
 
 li, a, button{
@@ -58,4 +64,108 @@ button:hover{
 li{
   margin: 10px;
 }
+
+h1{
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h2{
+  margin: 10px;
+  color: #0088a9;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.project{
+  font-family: 'Fjalla One', sans-serif;
+  /* border:1px solid red; */
+  margin: 30px;
+  padding: 10px;
+  background-color: #dae1e7;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.project a {
+  font-family: 'Fjalla One', sans-serif;
+  transition: 0s, 0s, 0s;
+  color: black;
+}
+
+h1 strong{
+  color: #026fff;
+}
+
+.container{
+  margin: 2%;
+  display: inline-block;
+  
+}
+
+.container-event{
+  margin: 0;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+
+
+.event{
+  justify-content: space-between;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 1% 1%;
+  /*border: 1px solid red;*/
+  width: 45%;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f4fbff;
+}
+
+.event-list{
+  display: block;
+  -ms-flex-wrap: wrap;
+  margin: 0;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.event img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail{
+  font-family: 'Montserrat', sans-serif;
+  margin:20px 40px;
+  margin-top: -40PX;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.event-description{
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.event-URL{
+  border: 1px solid #056fff;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
+  margin: 20%;
+}
+
+.event-title{
+  margin-left: 20px;
+}
+
+
 
