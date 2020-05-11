@@ -130,7 +130,7 @@ h1 strong{
   -ms-flex-wrap: wrap;
   margin: 0;
   align-self: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .event img{
@@ -145,7 +145,7 @@ h1 strong{
   margin-top: -40PX;
   background-color: white;
   position: relative;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   border-radius: 10px;
 }
@@ -162,7 +162,7 @@ h1 strong{
   text-decoration: none;
   color: #056fff;
   border-radius: 5px;
-  margin: 20%;
+  margin: 0%;
 }
 
 .event-title{

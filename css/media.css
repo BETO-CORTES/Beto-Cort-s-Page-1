@@ -58,3 +58,9 @@
   }
 }
 
+@media screen and (max-width: 321px){
+  .event-URL{
+    padding: 5px 5px;
+    width: 20px;
+  }
+}
