@@ -235,3 +235,23 @@ h1 strong{
 label {
   font-family: 'Fjilla One', sans-serif;
 }
+
+/* FOOTER */
+.footer{
+  background-color: #586b70;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 10px;
+}
+
+.footer img{
+  vertical-align: middle;
+}
+
+.footer a{
+  color: #00acee;
+}
