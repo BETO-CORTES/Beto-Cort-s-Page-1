@@ -30,6 +30,8 @@ header{
 
 .logo{
   cursor: pointer;
+  width: 30%;
+  color: white;
 }
 
 .nav_links{

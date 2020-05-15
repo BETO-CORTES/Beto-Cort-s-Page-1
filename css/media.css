@@ -56,6 +56,16 @@
     margin: 0 0;
     padding: 0 1em;
   }
+  header{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .logo{
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 321px){
